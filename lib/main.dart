@@ -54,7 +54,10 @@ class MyApp extends StatelessWidget {
                           style: TextStyle(
                               fontSize: 20.0,
                               fontFamily: 'SansPro',
-                              color: Colors.teal.shade900)))),
+                              color: Colors.teal.shade900)
+                      ),
+                  ),
+              ),
               Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 child: ListTile(
@@ -66,7 +69,8 @@ class MyApp extends StatelessWidget {
                       style: TextStyle(
                           fontSize: 20.0,
                           fontFamily: 'SansPro',
-                          color: Colors.teal.shade900)),
+                          color: Colors.teal.shade900)
+                  ),
                 ),
               ),
             ],
